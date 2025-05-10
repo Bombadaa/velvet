@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Besser ist es dies per CSS zu machen für bessere Trennung von Code und Styling
 
     gsap.from(split.words, {
-      duration: 0.8,
-      stagger: 0.1,
+      duration: 1.2,
+      stagger: 0.15,
       yPercent: 110,
       ease: "osmo-ease"
     });
